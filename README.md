@@ -13,28 +13,16 @@ Le Gestionnaire de Vidéothèque est une application qui permet de gérer une co
 # Structure du Projet
 
 videotheque_manager/
-
 ├── videotheque/
-
-│ ├── init.py
-
-
-│ ├── film.py
-
-│ ├── videotheque.py
-
+│   ├── __init__.py
+│   ├── film.py
+│   ├── videotheque.py
 ├── tests/
-
-│ ├── init.py
-
-│ ├── test_film.py
-
-│ ├── test_videotheque.py
-
-│ ├── test_integration.py
-
+│   ├── __init__.py
+│   ├── test_film.py
+│   ├── test_videotheque.py
+│   ├── test_integration.py
 ├── requirements.txt
-
 └── README.md
 
 # création et activation de l'environnement virtuel
@@ -44,6 +32,7 @@ venv/Scripts/activate
 # installation des dependances : requirement.txt
 
 pip install pipreqs
+
 pipreqs ./
 
 # execution tes tests avec unittest
